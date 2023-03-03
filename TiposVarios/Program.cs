@@ -22,6 +22,13 @@ namespace TiposVarios
             Console.WriteLine(f);
             Console.WriteLine(de);
             
+            char arrow1 = "\u2190";
+            char arrow2 = "\u219A";
+            char arrow3 = "\u21B0";
+
+            Console.WriteLine(arrow1);
+            Console.WriteLine(arrow2);
+            Console.WriteLine(arrow3);
         }
     }
 }
