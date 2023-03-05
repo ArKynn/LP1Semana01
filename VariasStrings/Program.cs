@@ -17,6 +17,25 @@ namespace VariasStrings
             Console.WriteLine(greet3);
             Console.WriteLine(unicode1);
             Console.WriteLine(unicode2);
+
+            string x = "2";
+            string y = "4";
+            string z = "6";
+
+            string xy = x + y;
+            string yz = "4" + z;
+            string interpolation = $"valor de x = {x}";
+            string.Format("Y e' {1}, X e'{0}", x, y);
+            Console.WriteLine(@"Verbatim com x = {0}", x);
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(xy);
+            Console.WriteLine(yz);
+            Console.WriteLine(interpolation);
+
+
         }
     }
 }
